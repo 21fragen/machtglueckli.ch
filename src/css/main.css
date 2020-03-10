@@ -85,3 +85,9 @@
 
 /* Uncomment out the line below to help debug layout issues */
 /*@import './imports/_debug';*/
+
+
+.questions {
+  background-color: var(--primary);
+  color: var(--black);
+}
