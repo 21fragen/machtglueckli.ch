@@ -87,7 +87,47 @@
 /*@import './imports/_debug';*/
 
 
+@font-face {
+    font-family: 'savate_regular';
+    src: url('/fonts/savate-regular-webfont.woff2') format('woff2'),
+         url('/fonts/savate-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 .questions {
   background-color: var(--primary);
   color: var(--black);
+  height: 100vh;
+
+  .slider {
+    height: 100vh;
+  }
+
+  .question {
+      font-family: 'savate_regular';
+  }
+}
+
+/* Tiny Slider styles */
+.tns-nav {
+  display: none;
+}
+.prevNext {
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+  top: calc(47vh);
+
+  .prev {
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+  }
+  .next {
+    cursor: pointer;
+    position: absolute;
+    right: 0em;
+  }
 }

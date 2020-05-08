@@ -1,6 +1,6 @@
 :root {
 	/* Colors */
-	--primary: #FFD6AC;
+	--primary: #FFE37F;
 	--highlight: var(--primary);
 	--white: rgba(255, 255, 255, 1);
 	--off-white: var(--white);
@@ -8,7 +8,7 @@
 	--grey-2: var(--grey-1);
 	--grey-3: var(--grey-1);
 	--grey-4: var(--grey-1);
-	--black: rgba(43, 37, 35, 1);
+	--black: rgba(19, 18, 17, 1);
 
 	/* Typography */
 	--font-family: Inter, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;

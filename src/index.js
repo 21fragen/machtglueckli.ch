@@ -2,5 +2,10 @@
 
 import "./css/main.css";
 
-// Say hello
-console.log("🦊 Hello! Edit me in src/index.js");
+
+var slider = tns({
+  container: '.slider',
+  items: 1,
+  autoplay: false,
+  controlsContainer: ".prevNext"
+});
