@@ -95,6 +95,10 @@
     font-style: normal;
 }
 
+html {
+  background-color: var(--white);
+}
+
 
 .questions {
   background-color: var(--primary);
@@ -105,10 +109,58 @@
     height: 100vh;
   }
 
+  #tns1 > .tns-item {
+    height: calc(100vh - 4em);
+    width: 100%;
+    padding: 2em;
+    font-size: 2rem;
+  }
+
+@media (--breakpoint-medium) {
+  #tns1 > .tns-item {
+    padding: 2em;
+    font-size: 3rem;
+  }
+}
+
+
   .question {
       font-family: 'savate_regular';
   }
 }
+
+.btn {
+  background-color: var(--primary);
+  color: var(--black);
+  border-radius: 2em;
+  padding: 0.5em 2em;
+  font-weight: normal;
+  border: none;
+
+  &:hover {
+    border-color: var(--highlight);
+    border: none;
+  }
+}
+
+ul li {
+  &:before {
+    width: 10px;
+    height: 10px;
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.91912 17.91912"%3E%3Cdefs%3E%3Cstyle%3E.cls-1,.cls-2%7Bfill:none;stroke:%23000;%7D.cls-1%7Bstroke-miterlimit:10;%7D.cls-2%7Bstroke-linecap:round;stroke-linejoin:round;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Efavicon%3C/title%3E%3Ccircle class="cls-1" cx="8.95956" cy="8.95956" r="8.45771"/%3E%3Cpath class="cls-2" d="M13.45919,11.30851a4.16973,4.16973,0,0,1-7.38857,1.14394" transform="translate(-0.41693 -0.04044)"/%3E%3Ccircle class="cls-1" cx="11.69852" cy="7.099" r="0.37951"/%3E%3Ccircle class="cls-1" cx="5.65369" cy="7.24796" r="0.37951"/%3E%3C/svg%3E');
+  }
+}
+
+.savate {
+  font-family: "savate_regular";
+  font-weight: normal;
+}
+
+.logo_smile {
+  width: 5rem;
+  margin-top: -5px;
+}
+
 
 /* Tiny Slider styles */
 .tns-nav {

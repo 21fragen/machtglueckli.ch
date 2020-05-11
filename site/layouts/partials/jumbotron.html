@@ -3,9 +3,9 @@
     <div class="prev p2 mh2">←</div>
     <div class="next p2 mh2">→</div>
   </div>
-  <div class="center w80-m w60 ph3 slider flex justify-center content-center items-center">
+  <div class="center ph3 slider flex justify-center content-center items-center">
     {{ range .questions }}
-    <div class="f3-ns f1-m question tc">
+    <div class="f3-ns f1-m question tc" style="background-color:{{ .background }};">
           {{.question}}
     </div>
     {{ end }}

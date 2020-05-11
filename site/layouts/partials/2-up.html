@@ -1,4 +1,10 @@
 <div class="bg-off-white pv6">
   <div class="ph3 mw7 f3 center">{{.intro.text}}</div>
-    <div class="ph3 mw7 f3 center">{{.intro.instructions}}</div>
+    <div class="ph3 mw7 f3 center">{{.intro.instructions.title}}
+    <ul>
+      {{range .intro.instructions.ul }}
+      <li>{{ .li }}</li>
+      {{end}}
+    </ul>
+    </div>
 </div>
