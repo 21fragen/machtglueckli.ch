@@ -16,7 +16,7 @@ intro:
     title: "So einfach geht’s:"
     ul:  
       - li: Schnappe dir deinen Smalltalk Partner
-      - li: Beantwortet beide die «Frage des Tages» und sprecht darüber.
+      - li: Beantwortet beide eine Frage und sprecht darüber.
 about:
   heading: Über das Projekt
   image: img/heart.jpg
