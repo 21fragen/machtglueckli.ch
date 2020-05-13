@@ -7,6 +7,9 @@ public_folder: "img"
 collections: # A list of collections the CMS should be able to edit
   - name: "pages"
     label: "Pages"
+    delete: false
+    editor:
+      preview: false
     files:
       - file: "site/content/_index.md"
         label: "Home Page"
