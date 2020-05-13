@@ -1,5 +1,5 @@
 ---
-title: Stell dir einen perfekten Tag vor, wie würde er aussehen?
+title: 21 Fragen - Für mehr Tiefe beim Smalltalk
 questions:
   - question: Stell dir einen perfekten Tag vor, wie würde er aussehen?
     background: transparent

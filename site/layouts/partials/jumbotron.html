@@ -1,11 +1,11 @@
-<div class="bg-center questions">
+<div class="bg-center questions bg-primary">
   <div class="prevNext f2">
     <div class="prev p2 mh2">←</div>
     <div class="next p2 mh2">→</div>
   </div>
   <div class="center ph3 slider flex justify-center content-center items-center">
     {{ range .questions }}
-    <div class="f3-ns f1-m question tc" style="background-color:{{ .background }};">
+    <div class="f3-ns f1-m question tc">
           {{.question}}
     </div>
     {{ end }}

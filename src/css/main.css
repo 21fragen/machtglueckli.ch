@@ -99,9 +99,19 @@ html {
   background-color: var(--white);
 }
 
+.bg-primary {
+  -webkit-transition: background-color 200ms linear;
+  -ms-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+}
+
+nav {
+  z-index: 999;
+  background-color: transparent;
+}
+
 
 .questions {
-  background-color: var(--primary);
   color: var(--black);
   height: 100vh;
 
@@ -114,12 +124,22 @@ html {
     width: 100%;
     padding: 2em;
     font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
 @media (--breakpoint-medium) {
   #tns1 > .tns-item {
     padding: 2em;
     font-size: 3rem;
+  }
+}
+
+@media (--breakpoint-large) {
+  #tns1 > .tns-item {
+    padding: 2em;
+    font-size: 3.5rem;
   }
 }
 
@@ -171,6 +191,12 @@ ul li {
   position: absolute;
   z-index: 999;
   top: calc(47vh);
+
+  & div:highlight,
+  & div:active,
+  & div::selection {
+    background-color: transparent;
+  }
 
   .prev {
     cursor: pointer;

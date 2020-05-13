@@ -27,4 +27,4 @@ collections: # A list of collections the CMS should be able to edit
             ]}
           - {label: "Questions", name: questions, widget: list, fields: [
               {label: "Question", name: "question", widget: "text"},
-              {label: "background color", name: "background", widget: "string", required: "false"}]}
+              {label: "background color", name: "background", widget: "string", required: false}]}
