@@ -1,4 +1,4 @@
-<nav class="overflow-x-visible-ns flex justify-between items-center center absolute">
+<nav class="overflow-x-visible-ns flex justify-between items-center center absolute w-100">
 
 	<!-- Logo -->
 	<a href="/" class="pa3 db mr4 h-100 w8 flex-none">
@@ -6,14 +6,12 @@
 	</a>
 
 	<!-- Primary Nav
-	<ul class="flex b grey-3">
-		<li><a href="/products" class="pa3 no-underline db">Products</a></li>
-
-		<li><a href="/values" class="pa3 no-underline db">Values</a></li>
-
-		<li><a href="/post" class="pa3 no-underline db">Blog</a></li>
-
-		<li><a href="/contact" class="pa3 no-underline db">Contact</a></li>
-	</ul>-->
+	<ul class="flex">
+		{{ range $.Site.Home.AllTranslations }}
+			{{ if not (eq .Language.Lang .Site.Language) }}
+<li><a class="pa3 no-underline" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+			{{ end }}
+{{ end }}
+	</ul> -->
 
 </nav>

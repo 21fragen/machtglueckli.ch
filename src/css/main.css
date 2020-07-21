@@ -163,7 +163,7 @@ nav {
   }
 }
 
-ul {
+.bg-off-white ul {
   li {
       padding-left: 2em;
       background-image: url("/img/favicon-32x32.png");
