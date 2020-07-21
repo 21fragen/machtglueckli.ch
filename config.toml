@@ -1,2 +1,15 @@
-languageCode = "en-us"
-title = "My New Netlify Victor Hugo Site"
+# English is the default language
+defaultContentLanguage = "de"
+# Force to have /en/my-page and /fr/my-page routes, even for default language.
+defaultContentLanguageInSubdir= true
+
+[Languages]
+[Languages.de]
+title = "Documentation for Hugo Learn Theme"
+weight = 1
+languageName = "Deutsch"
+
+[Languages.fr]
+title = "Documentation du thème Hugo Learn"
+weight = 2
+languageName = "Français"
